@@ -12,7 +12,7 @@ pipeline {
         stage('Test') { 
             steps { 
                 echo 'Running tests...' 
-                sh './my_program' // Print output of C++ file
+                sh './my_progra' // Print output of C++ file
             } 
         } 
         
